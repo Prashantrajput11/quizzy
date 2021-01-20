@@ -1,0 +1,115 @@
+/* 00B4D8
+023E8A -- shadow */
+/* @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ade8f4;
+  /* font-family: "Merriweather Sans", sans-serif; */
+  font-family: "Electrolize", sans-serif;
+  color: white;
+}
+
+.container {
+  height: 600px;
+  width: 800px;
+  background: #341f97;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px black;
+  border: 3px solid white;
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    height: 500px;
+    width: 380px;
+  }
+}
+.quiz-instructions {
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 10px 4px;
+}
+.options-container {
+  /* border: 1px solid #ffce00; */
+  margin: 40px auto;
+  height: 200px;
+}
+@media only screen and (max-width: 400px) {
+  .options-container {
+    margin: 0 auto;
+  }
+}
+
+.btn {
+  background: #ffce00;
+
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  margin: 10px 20px;
+  width: 40%;
+}
+@media only screen and (max-width: 400px) {
+  .btn {
+    width: 80%;
+  }
+}
+
+.play {
+  border: none;
+  background: #ffce00;
+  color: black;
+  padding: 10px 19px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px #aaa;
+  margin-top: 30px;
+}
+.next {
+  border: none;
+  background: #ffce00;
+  color: black;
+  padding: 10px 19px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px #aaa;
+  margin-top: 5px;
+  /* display: none; */
+}
+@media only screen and (max-width: 400px) {
+  .next {
+    margin: 130px 35%;
+  }
+}
+.score {
+  height: 200px;
+  width: 300px;
+  background: white;
+  border: 2px solid black;
+  display: none;
+  color: black;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .score {
+    margin: 0 auto;
+  }
+}
+
+.restart {
+  border: none;
+  background: #ffce00;
+  color: black;
+  padding: 10px 19px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px #aaa;
+  margin-top: 5px;
+  display: none;
+}
